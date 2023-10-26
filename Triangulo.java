@@ -1,7 +1,13 @@
 class Triangulo extends FiguraGeometrica {
     private double base;
     private double altura;
-
+/**
+     * Primer método que se ejecuta al correr el programa.
+     *
+     * @param args
+     *
+     * Complejidad temporal: O(1) Tiempo constante.
+     */
     public Triangulo( String nombre, String color, double base, double altura) {
         super  (nombre, color);
         this.base = base;
