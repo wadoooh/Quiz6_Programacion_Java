@@ -7,8 +7,13 @@ class  Circulo extends FiguraGeometrica {
         this.radio=radio;
 
     }
- //Complejidad Temporal: O(1)
-
+/**
+     * Primer método que se ejecuta al correr el programa.
+     *
+     * @param args
+     *
+     * Complejidad temporal: O(1) Tiempo constante.
+     */
     @Override
     public double obtenerArea() {
         super.obtenerArea();
