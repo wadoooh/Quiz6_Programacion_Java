@@ -7,7 +7,7 @@ class  Circulo extends FiguraGeometrica {
         this.radio=radio;
 
     }
-
+ //Complejidad Temporal: O(1)
 
     @Override
     public double obtenerArea() {
