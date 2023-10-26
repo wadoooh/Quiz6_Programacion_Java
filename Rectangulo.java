@@ -2,7 +2,13 @@ class Rectangulo extends FiguraGeometrica {
 
     private double lado1;
     private double lado2;
-
+/**
+     * Primer método que se ejecuta al correr el programa.
+     *
+     * @param args
+     *
+     * Complejidad temporal: O(1) Tiempo constante.
+     */
     public Rectangulo(  String nombre, String color, double lado1, double lado2) {
         super  (nombre, color);
         this.lado1 = lado1;
